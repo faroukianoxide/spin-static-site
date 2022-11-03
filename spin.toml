@@ -1,0 +1,16 @@
+spin_version = "1"
+authors = ["Fermyon Engineering <engineering@fermyon.com>"]
+description = "Your first Fermyon Cloud application"
+name = "spin-static-site"
+trigger = { type = "http", base = "/" }
+version = "0.1.0"
+
+
+[[component]]
+id = "fs"
+source = "target/wasm32-wasi/release/spin_static_site.wasm"
+files = [{ source = "www", destination = "/" }]
+[component.trigger]
+route = "/..."
+[component.build]
+command = "cargo build --target wasm32-wasi --release"

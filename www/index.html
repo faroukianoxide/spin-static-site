@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <title>Impulse</title>
+
+
+
+  <link rel="icon" href="./img/logo.svg">
+
+  <link href="./css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <main>
+
+    <div class="px-4 py-5 my-5 text-center">
+      <img class="d-block mx-auto mb-4 app-glitch-effect" src="./img/logo.svg" style="height: 70PX; padding:0px">
+      <h1 class="display-5 fw-bold app-title-text" data-text="Intrusion"><span>Impulse</span></h1>
+      <p style="color: white;">A demonically fast WASM single page website</p>
+      <div class="col-lg-6 mx-auto">
+        <div class="pad">
+          <div class="pad__body">
+            <p>
+              <strong>Impulse</strong> is a tiny web page built on <a href="https://fermyon.com/spin">Spin</a> and hosted on <a href="https://fermyon.com">Fermyon</a> 
+              Cloud. With <a https = "https://faroukibrahim.com/why-webassembly-is-a-viable-choice-for-cloud-native-apps">WebAssembly on the server-side</a>,
+              you can build tiny but high-performance microservices that startup fast and run at near-native speed with
+              little memory footprint.</p>
+              <p>
+              When you make a request for this page, a WASM module is booted to serve you everything you need, and as you
+              are reading this page, the WASM module would by now be terminated, saving resources. Everything happens
+              almost instantaneously.
+              This page is written in HTML with statically served assets (CSS and images files) using <a href="https://github.com/fermyon/spin-fileserver"> Spin static file
+                server</a>.
+              I intend to keep adding features to this page as I experiment with Wasm.
+            </p>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+
+
+
+  </main>
+</body>
+
+</html>
