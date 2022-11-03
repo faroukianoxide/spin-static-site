@@ -1,7 +1,8 @@
 # Build, run and deploy!
 
 ```shell
-  git clone https://github.com/faroukianoxide/spin-static-site 
+  
+$ git clone https://github.com/faroukianoxide/spin-static-site 
 ```
 
 ```shell
